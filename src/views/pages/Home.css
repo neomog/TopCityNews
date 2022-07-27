@@ -1,0 +1,146 @@
+/* ===========================================
+                     HEADER
+   =========================================== */
+
+   header,
+   footer {
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 22px;
+    padding: 10px 0;
+   }
+
+   /* ===========================================
+                     LATEST NEWS
+   =========================================== */
+
+   .home-latest {
+    box-sizing: border-box;
+    padding: 0;
+   }
+
+   .home-latest .item .image_cover {
+    position: relative;
+    background-size: cover !important;
+    height: 200px;
+   }
+
+   .home-latest .item .description {
+    position: absolute;
+    bottom: 0;
+   }
+
+   .home-latest .item .description span {
+    background: #00BCD4;
+    padding: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 10px;
+   }
+
+   .home-latest .item .description div {
+    padding: 10px;
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 700;
+    color: #fff;
+    background: rgba(53, 53, 53, 0.64);
+    width: 40%;
+   }
+
+
+      /* ===========================================
+                     OTHER NEWS
+   =========================================== */
+
+   .other-news {
+    box-sizing: border-box;
+    padding: 10px;
+   }
+
+   .other-news h2 {
+    font-weight: 300;
+   }
+
+   .other-news-items .item {
+    display: flex;
+    border: 1px solid #e6e6e6;
+   }
+
+   .other-news-items .item .left {
+     flex-grow: 1;
+     width: 100px;
+     height: 120px;
+     background-size: cover !important;
+     background-position: center center !important;
+   }
+
+   .other-news-items .item .right {
+    width: 80%;
+    height: 120px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    position: relative;
+   }
+
+   .other-news-items .item .right h3 {
+    margin: 0px;
+    font-weight: 300;
+    font-size: 18px;
+   }
+
+   .other-news-items .item .right .category-tag {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #00bcd4;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    color: #fff;
+   }
+
+   .other-news-items .item .right .tags {
+    bottom: 20px;
+    position: absolute;
+   }
+
+   .other-news-items .item .right .tags span {
+    margin-right: 15px;
+    font-size: 12px;
+    color: #607d8b;
+   }
+
+
+  /* ===========================================
+                     HOME GALLERY
+   =========================================== */
+
+   .home-gallery {
+    text-align: left;
+   }
+
+   .home-gallery h2 {
+    font-weight: 300;
+    padding: 10px;
+    margin-bottom: 0;
+   }
+
+   .home-gallery .slider-item .image {
+    background-size: cover !important;
+    background-position: center center !important;
+    width: 100%;
+    height: 370px;
+    position: relative;
+   }
+
+   .home-gallery .slider-item .image h3 {
+    position: absolute;
+    color: #fff;
+    bottom: 0;
+    left: 20px;
+    font-size: 30px;
+  }
+

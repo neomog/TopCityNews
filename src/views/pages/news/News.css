@@ -1,0 +1,44 @@
+  /* ===========================================
+                        NEWS
+     =========================================== */
+
+     .news-container .tags {
+        background: #f8f8f8;
+        padding: 10px;
+        color: #c5c5c5;
+        font-size: 14px;
+      }
+      
+      .news-container .tags span {
+        margin-right: 15px;
+      }
+      
+      .news-container .top {
+        box-sizing: border-box;
+        padding: 10px;
+      }
+      
+      .news-container .top h2 {
+        font-weight: 700;
+        font-size: 30px;
+        margin: 0;
+        line-height: 32px;
+      }
+      
+      .news-container .top span {
+        color: #00bcd4;
+        font-weight: 300;
+        font-size: 11px;
+        margin-top: 10px;
+        display: inline-block;
+      }
+      
+      .news-container img {
+        width: 100%;
+      }
+      
+      .news-container .body-news {
+        padding: 20px;
+        font-weight: 300;
+        font-size: 17px;
+      }

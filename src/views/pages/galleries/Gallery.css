@@ -1,0 +1,20 @@
+/* ===========================================
+              GALLERY ITEM
+=========================================== */
+
+.slider-item-wrap h3 {
+    font-weight: 300;
+    text-align: center;
+  }
+  
+  .slider-item-wrap .slider-item .image {
+    height: 500px;
+    background-size: cover !important;
+    background-position: center center !important;
+  }
+  
+  .slider-item-wrap .slider-item .description {
+    box-sizing: border-box;
+    padding: 20px;
+    background: #e0e0e0;
+  }
