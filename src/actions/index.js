@@ -2,7 +2,7 @@
 // const URL = `http://localhost:3002`;
 
 // PRODUCTION SERVER
-const URL = `https://top-city-news-hosting.herokuapp.com/`;
+const URL = `https://top-city-news-hosting.herokuapp.com`;
 
 // HOME PAGE
 export const latestNews = () => dispatch => {
